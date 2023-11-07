@@ -1,0 +1,38 @@
+@startuml UseCase1
+left to right direction
+actor :Admin: as ad
+actor :Enseignant: as es
+
+rectangle "Gestion Personnel Enseignant" {
+    (S'authentifier) as uc0
+    
+
+    (Ajouter) as uc1
+    (Supprimer) as uc2
+    (Modifier Données Personnelles) as uc3
+
+    (Promouvoir) as uc4
+    (par Grade) as uc5
+    (par Echelon) as uc6
+    (Consulter Profile) as uc7
+}
+
+' INCLUDE
+uc1 ..> uc0 : <<includes>>
+uc2 ..> uc0 : <<includes>>
+uc3 ..> uc0 : <<includes>>
+uc4 ..> uc0 : <<includes>>
+uc7 ..> uc0 : <<includes>>
+
+' EXTENSIONS
+uc4 <|-- uc5
+uc4 <|- uc6
+
+' ASSOCIATIONS
+ad -- uc1
+ad -- uc2
+ad -- uc3
+ad -- uc4
+es -- uc7
+
+@enduml

@@ -1,0 +1,28 @@
+@startuml Application2
+
+class EnseignantCarriereRecherche {
+    - matricule:  String
+    - nom:  String
+    - prenom:  String
+    - sexe:  char
+    - dateNaissance:  Date
+    - lieuNaissance:  String
+    - situationFamille:  char
+    - dateRecrutement:  Date
+    - diplomeRecrutement:  String
+    - departementAffectation:  String
+    - laboratoireRecherche:  String
+    
+    
+}
+
+class PromotionRecherche {
+    - datePromotion:  Date
+    - gradeRecherche:  String
+    
+}
+
+EnseignantCarriereRecherche "1" o-- "0..*" PromotionRecherche 
+
+
+@enduml

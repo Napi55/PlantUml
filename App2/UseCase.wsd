@@ -1,0 +1,42 @@
+@startuml gg
+left to right direction
+skinparam packageStyle rectangle
+actor ADMINISTRATEUR as Admin
+actor ENSEIGNANT as Enseignant
+
+rectangle "service de recherche "  {
+    (S'authentifier) as uc0
+     (Ajouter Enseignant)  as uc1  
+     (Modifier Enseignant) as uc2
+     (Supprimer Enseignant) as uc3
+     (Rechercher Enseignant) as uc4
+     (Ajouter Promotion) as uc5
+     (Modifier Promotion) as uc6
+     (Supprimer Promotion)as uc7
+     (Rechercher Promotion)as uc8 
+     (Consulter Carrière) as uc9
+   
+    
+}
+' INCLUDE
+uc1 ..> uc0 : <<includes>>
+uc2 ..> uc0 : <<includes>>
+uc3 ..> uc0 : <<includes>>
+uc4 ..> uc0 : <<includes>>
+uc5 ..> uc0 : <<includes>>
+uc6 ..> uc0 : <<includes>>
+uc7 ..> uc0 : <<includes>>
+uc8 ..> uc0 : <<includes>>
+uc9 ..> uc0 : <<includes>>
+
+' ASSOCIATIONS
+Admin --  uc1  
+Admin --  uc2
+Admin --  uc3
+Admin --  uc4
+Admin -- uc5
+Admin --  uc6
+Admin --  uc7
+Admin --  uc8 
+Enseignant --  uc9
+@enduml

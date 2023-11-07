@@ -1,0 +1,35 @@
+@startuml EnseignantPromotion
+
+class Enseignant {
+    - matricule : String
+    - nom : String
+    - prenom : String
+    - sexe : Char
+    - dateNaissance : Date
+    - lieuNaissance : String
+    - situationFamille : Char
+    - nomConjoint : String
+    - nombreEnfants : Int
+    - dateRecrutement : Date
+    - diplomeRecrutement : String
+    - departementAffectation : String
+    - etatActuel : String
+}
+
+abstract class Promotion {
+    - datePromotion : Date
+}
+
+class PromotionGrade extends Promotion {
+    - grade : String
+    - diplome : String
+}
+
+class PromotionEchelon extends Promotion {
+    - nombreEchelons : Int
+}
+
+Enseignant "1" o-- "0..*" PromotionGrade
+Enseignant "1" o-- "0..*" PromotionEchelon
+
+@enduml
