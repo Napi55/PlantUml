@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="713px" preserveAspectRatio="none" style="width:674px;height:713px;background:#FFFFFF;" version="1.1" viewBox="0 0 674 713" width="674px" zoomAndPan="magnify"><defs/><g><!--MD5=[3d02ffbfdff6cf4bd5dc2cb812e8d4cf]
+cluster service de recherche --><g id="cluster_service de recherche "><rect fill="none" height="698" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="493.17" x="175" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="145" x="346.585" y="22.5352">service de recherche</text></g><g id="elem_uc0"><ellipse cx="583.109" cy="367.0038" fill="#F1F1F1" rx="69.069" ry="16.2138" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="535.295" y="370.873">S'authentifier</text></g><g id="elem_uc1"><ellipse cx="288.0212" cy="61.9962" fill="#F1F1F1" rx="85.5312" ry="19.5062" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="222.5212" y="65.2873">Ajouter Enseignant</text></g><g id="elem_uc2"><ellipse cx="288.0234" cy="136.9987" fill="#F1F1F1" rx="88.1434" ry="20.0287" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="219.5234" y="140.2897">Modifier Enseignant</text></g><g id="elem_uc3"><ellipse cx="288.0177" cy="212.9955" fill="#F1F1F1" rx="94.7777" ry="21.3555" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="212.0177" y="216.2866">Supprimer Enseignant</text></g><g id="elem_uc4"><ellipse cx="288.0181" cy="291.0036" fill="#F1F1F1" rx="97.0181" ry="21.8036" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="209.5181" y="294.2946">Rechercher Enseignant</text></g><g id="elem_uc5"><ellipse cx="288.0247" cy="367.0009" fill="#F1F1F1" rx="83.8047" ry="19.1609" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="224.5247" y="370.292">Ajouter Promotion</text></g><g id="elem_uc6"><ellipse cx="288.019" cy="440.9998" fill="#F1F1F1" rx="86.399" ry="19.6798" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="221.519" y="444.2908">Modifier Promotion</text></g><g id="elem_uc7"><ellipse cx="288.0153" cy="516.9991" fill="#F1F1F1" rx="92.9953" ry="20.9991" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="214.0153" y="520.2901">Supprimer Promotion</text></g><g id="elem_uc8"><ellipse cx="288.0247" cy="594.0049" fill="#F1F1F1" rx="95.2247" ry="21.4449" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="211.5247" y="597.296">Rechercher Promotion</text></g><g id="elem_uc9"><ellipse cx="288.0247" cy="670.0009" fill="#F1F1F1" rx="83.8047" ry="19.1609" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="127" x="224.5247" y="673.292">Consulter Carrière</text></g><!--MD5=[97ab183161fd5d1db7fba7485cf76add]
+entity Admin--><g id="elem_Admin"><ellipse cx="67" cy="299.26" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M67,307.26 L67,334.26 M54,315.26 L80,315.26 M67,334.26 L54,349.26 M67,334.26 L80,349.26 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="6" y="364.2952">ADMINISTRATEUR</text></g><!--MD5=[16b15d6cd6ee62b11a1c3dc9200ccdf6]
+entity Enseignant--><g id="elem_Enseignant"><ellipse cx="67" cy="640.26" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M67,648.26 L67,675.26 M54,656.26 L80,656.26 M67,675.26 L54,690.26 M67,675.26 L80,690.26 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="23.5" y="705.2952">ENSEIGNANT</text></g><!--MD5=[dca142aebcb1b80057051487257bd47c]
+link uc1 to uc0--><g id="link_uc1_uc0"><path d="M340.49,77.74 C384.22,93.55 445.8,121.96 484.04,166 C532.24,221.53 562.79,304.89 575.43,344.52 " fill="none" id="uc1-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="576.85,349.05,577.9668,339.2647,575.3505,344.2801,570.335,341.6639,576.85,349.05" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="110.5684">«includes»</text></g><!--MD5=[0085e83a84e5093a4299e9c4a6570e87]
+link uc2 to uc0--><g id="link_uc2_uc0"><path d="M338.81,153.73 C353.97,159.47 370.47,166.39 385.04,174 C432.13,198.6 445.24,204.7 484.04,241 C518.62,273.36 550.72,318.64 568.25,345.19 " fill="none" id="uc2-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="570.94,349.29,569.3528,339.5699,568.1995,345.1079,562.6615,343.9546,570.94,349.29" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="187.5684">«includes»</text></g><!--MD5=[e634cf96224b45d2c8997b4c7e791383]
+link uc3 to uc0--><g id="link_uc3_uc0"><path d="M336.65,231.63 C352.17,237.89 369.42,245.05 385.04,252 C429.71,271.88 441.73,275.47 484.04,300 C509.31,314.65 536.65,333.61 556.02,347.62 " fill="none" id="uc3-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="560.04,350.54,555.1176,342.0094,555.9976,347.5974,550.4096,348.4774,560.04,350.54" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="262.5684">«includes»</text></g><!--MD5=[431ba564af6654f1577f27aa7249d73f]
+link uc4 to uc0--><g id="link_uc4_uc0"><path d="M352.98,307.58 C405.79,321.28 479.86,340.49 529.34,353.32 " fill="none" id="uc4-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="534.09,354.55,526.3838,348.417,529.2504,353.2937,524.3737,356.1603,534.09,354.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="321.5684">«includes»</text></g><!--MD5=[7d2d936b6a49ac8015fad98ff9f07ad6]
+link uc5 to uc0--><g id="link_uc5_uc0"><path d="M372.22,367 C414.88,367 466.4,367 507.73,367 " fill="none" id="uc5-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="512.49,367,503.49,363,507.49,367,503.49,371,512.49,367" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="363.5684">«includes»</text></g><!--MD5=[c27035da72cf771baed0d2a3518a77d2]
+link uc6 to uc0--><g id="link_uc6_uc0"><path d="M347.49,426.37 C386.23,416.65 438.18,403.61 484.04,392 C498.64,388.3 514.47,384.28 529.05,380.56 " fill="none" id="uc6-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="533.76,379.36,524.0527,377.6959,528.9135,380.5895,526.0199,385.4503,533.76,379.36" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="388.5684">«includes»</text></g><!--MD5=[0843a9643898cab2f231e461c7124d1d]
+link uc7 to uc0--><g id="link_uc7_uc0"><path d="M335.05,498.65 C350.94,492.23 368.81,484.9 385.04,478 C429.35,459.16 441.99,457.45 484.04,434 C509.55,419.77 536.86,400.77 556.17,386.64 " fill="none" id="uc7-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="560.17,383.69,550.5479,385.7911,556.1393,386.6487,555.2818,392.2401,560.17,383.69" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="430.5684">«includes»</text></g><!--MD5=[e9e077b3a56bb6c1860ac2d1d4e9eadd]
+link uc8 to uc0--><g id="link_uc8_uc0"><path d="M339.16,575.7 C354.18,569.67 370.51,562.56 385.04,555 C431.51,530.81 445.27,526.24 484.04,491 C518.74,459.46 550.8,414.79 568.29,388.56 " fill="none" id="uc8-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="570.96,384.52,562.6604,389.8226,568.203,388.6912,569.3344,394.2338,570.96,384.52" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="487.5684">«includes»</text></g><!--MD5=[3f337806f3cb1a82469d932f32e4e5b8]
+link uc9 to uc0--><g id="link_uc9_uc0"><path d="M339.18,654.43 C382.95,638.46 445.36,609.59 484.04,565 C531.51,510.26 562.32,428.5 575.21,389.4 " fill="none" id="uc9-to-uc0" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="576.66,384.94,570.0587,392.2491,575.1046,389.6919,577.6618,394.7378,576.66,384.94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="416.04" y="561.5684">«includes»</text></g><!--MD5=[17b7d469d3ad8247a2d850ff0b93f61d]
+link Admin to uc1--><g id="link_Admin_uc1"><path d="M74.28,290.63 C84.63,239.66 110.07,150.12 167,99 C180.79,86.62 198.65,78.38 216.37,72.9 " fill="none" id="Admin-uc1" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[dd3f26e0e24b8d83e69f7c7c6f71ef59]
+link Admin to uc2--><g id="link_Admin_uc2"><path d="M83.37,290.34 C99.27,255.13 127.37,204.17 167,174 C181.75,162.77 199.93,154.92 217.65,149.44 " fill="none" id="Admin-uc2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4c421711c37ea72da314eca3f66e87ac]
+link Admin to uc3--><g id="link_Admin_uc3"><path d="M110.59,290.62 C127.29,277.02 147.19,262.51 167,252 C184.61,242.66 204.87,235.03 223.67,229.08 " fill="none" id="Admin-uc3" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[62df69c53fc4fca81abb73e832d58723]
+link Admin to uc4--><g id="link_Admin_uc4"><path d="M128.43,318.52 C153.75,314.12 183.49,308.96 210.33,304.31 " fill="none" id="Admin-uc4" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bb75737495b359effd0e2c8c63d40b1b]
+link Admin to uc5--><g id="link_Admin_uc5"><path d="M128.43,339.48 C156.92,344.43 190.99,350.34 220.24,355.41 " fill="none" id="Admin-uc5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d4efd188555d2e114b32152fc1f7eb3c]
+link Admin to uc6--><g id="link_Admin_uc6"><path d="M112.11,367.65 C128.51,380.57 147.81,394.16 167,404 C185.53,413.5 206.94,421.06 226.5,426.81 " fill="none" id="Admin-uc6" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[447cfc3d207ff6a5347ee582eca6ca7d]
+link Admin to uc7--><g id="link_Admin_uc7"><path d="M84.64,367.67 C101,401.35 129.03,449.18 167,478 C181.75,489.19 199.83,497.25 217.45,503.01 " fill="none" id="Admin-uc7" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[cfaa42023dfa99a738bccf4682c192b1]
+link Admin to uc8--><g id="link_Admin_uc8"><path d="M74.78,367.44 C85.58,417.54 111.44,504.67 167,555 C179.83,566.62 196.17,574.78 212.63,580.51 " fill="none" id="Admin-uc8" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[36c73f1c06d870bde6b63dd6d3391b4b]
+link Enseignant to uc9--><g id="link_Enseignant_uc9"><path d="M110.75,670 C137.26,670 172.23,670 204.02,670 " fill="none" id="Enseignant-uc9" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ce26848d0a578e6fdb097e196825fee1]
+@startuml gg
+left to right direction
+skinparam packageStyle rectangle
+actor ADMINISTRATEUR as Admin
+actor ENSEIGNANT as Enseignant
+
+rectangle "service de recherche "  {
+    (S'authentifier) as uc0
+     (Ajouter Enseignant)  as uc1  
+     (Modifier Enseignant) as uc2
+     (Supprimer Enseignant) as uc3
+     (Rechercher Enseignant) as uc4
+     (Ajouter Promotion) as uc5
+     (Modifier Promotion) as uc6
+     (Supprimer Promotion)as uc7
+     (Rechercher Promotion)as uc8 
+     (Consulter Carrière) as uc9
+   
+    
+}
+' INCLUDE
+uc1 ..> uc0 : <<includes>>
+uc2 ..> uc0 : <<includes>>
+uc3 ..> uc0 : <<includes>>
+uc4 ..> uc0 : <<includes>>
+uc5 ..> uc0 : <<includes>>
+uc6 ..> uc0 : <<includes>>
+uc7 ..> uc0 : <<includes>>
+uc8 ..> uc0 : <<includes>>
+uc9 ..> uc0 : <<includes>>
+
+' ASSOCIATIONS
+Admin - -  uc1  
+Admin - -  uc2
+Admin - -  uc3
+Admin - -  uc4
+Admin - - uc5
+Admin - -  uc6
+Admin - -  uc7
+Admin - -  uc8 
+Enseignant - -  uc9
+@enduml
+
+@startuml gg
+left to right direction
+skinparam packageStyle rectangle
+actor ADMINISTRATEUR as Admin
+actor ENSEIGNANT as Enseignant
+
+rectangle "service de recherche "  {
+    (S'authentifier) as uc0
+     (Ajouter Enseignant)  as uc1  
+     (Modifier Enseignant) as uc2
+     (Supprimer Enseignant) as uc3
+     (Rechercher Enseignant) as uc4
+     (Ajouter Promotion) as uc5
+     (Modifier Promotion) as uc6
+     (Supprimer Promotion)as uc7
+     (Rechercher Promotion)as uc8 
+     (Consulter Carrière) as uc9
+   
+    
+}
+uc1 ..> uc0 : <<includes>>
+uc2 ..> uc0 : <<includes>>
+uc3 ..> uc0 : <<includes>>
+uc4 ..> uc0 : <<includes>>
+uc5 ..> uc0 : <<includes>>
+uc6 ..> uc0 : <<includes>>
+uc7 ..> uc0 : <<includes>>
+uc8 ..> uc0 : <<includes>>
+uc9 ..> uc0 : <<includes>>
+
+Admin - -  uc1  
+Admin - -  uc2
+Admin - -  uc3
+Admin - -  uc4
+Admin - - uc5
+Admin - -  uc6
+Admin - -  uc7
+Admin - -  uc8 
+Enseignant - -  uc9
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 CET 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

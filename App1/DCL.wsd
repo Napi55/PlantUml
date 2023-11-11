@@ -1,35 +1,67 @@
-@startuml EnseignantPromotion
+@startuml DCL1
 
 class Enseignant {
     - matricule : String
     - nom : String
     - prenom : String
-    - sexe : Char
+    - sexe : Genre
     - dateNaissance : Date
     - lieuNaissance : String
-    - situationFamille : Char
+    - situationFamille : SituationFamille
     - nomConjoint : String
     - nombreEnfants : Int
     - dateRecrutement : Date
-    - diplomeRecrutement : String
-    - departementAffectation : String
-    - etatActuel : String
+    - estActif : Bool
 }
 
 abstract class Promotion {
     - datePromotion : Date
 }
 
+abstract IndexableEnum {
+    + getIndex() : Int
+}
+
 class PromotionGrade extends Promotion {
     - grade : String
-    - diplome : String
 }
 
 class PromotionEchelon extends Promotion {
     - nombreEchelons : Int
 }
 
-Enseignant "1" o-- "0..*" PromotionGrade
-Enseignant "1" o-- "0..*" PromotionEchelon
+class Departement {
+    - nom : String
+}
+
+class Diplome {
+    - date : Date
+    - type : TypeDiplome
+}
+
+enum TypeDiplome extends IndexableEnum {
+    # Licence
+    # Master
+    # Doctorat
+}
+
+enum SituationFamille extends IndexableEnum {
+    # Celibataire
+    # Marrié
+    # Divorcé
+    # Veuf
+}
+
+enum Genre extends IndexableEnum {
+    # Male
+    # Female
+}
+
+'ASSOCIATIONS
+Enseignant "1" o-- "*" Promotion
+Enseignant "1" o-- "*" Diplome
+Enseignant "1" --o "*" Departement
+
+PromotionGrade o-- "*" Diplome
 
 @enduml
