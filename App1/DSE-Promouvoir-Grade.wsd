@@ -23,11 +23,11 @@ form -> controller : valider(grade, diplome)
 controller -> model : Promotion(grade, diplome)
 activate model
 model -> db : INSERT promotion
-db -> model : OK
-model -> controller : OK
+db --> model : OK
+model --> controller : OK
 destroy model
-controller -> form : OK
-form -> ad : OK
+controller --> form : OK
+form --> ad : "Promotion effectuée"
 ad -> form : terminer()
 form -> controller : terminer()
 controller -> form
