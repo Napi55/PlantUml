@@ -1,0 +1,39 @@
+@startuml DSE-Modifier
+actor Admin as ad
+boundary ListeEnseignants as list
+boundary FormulaireModification as form
+control EnseignantController as controller
+boundary Enseignant as ens
+database "Base de Données" as bd
+
+autonumber
+activate ad
+activate bd
+activate list
+ad -> list : modifier(enseignant)
+list -> controller : modifier(enseignant)
+activate controller
+controller -> list
+destroy list
+controller -> form
+activate form
+form -> ad : demanderSaisie()
+ad -> form : remplir(nom, prenom, dn, ...)
+form -> controller : valider(nom, prenom, dn, ...)
+controller -> ens : setInfo(nom, prenom, dn, ...)
+activate ens
+ens -> bd : UPDATE esneignant
+bd --> ens : OK
+ens --> controller : OK
+destroy ens
+controller --> form : OK
+form --> ad : "Modification terminée"
+ad -> form : terminer()
+form -> controller : terminer()
+controller -> form
+destroy form
+controller -> list
+activate list
+list -> ad : presenterListe()
+
+@enduml

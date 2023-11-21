@@ -1,0 +1,39 @@
+@startuml DSE-Promouvoir-Grade
+actor Admin as ad
+boundary ListeUI as list
+boundary FormulaireGrade as form
+control PromotionController as controller
+entity PromotionGrade as model
+database "Base de Données" as db
+
+autonumber
+activate ad
+activate list
+activate db
+ad -> list : promouvoir(enseignant)
+list -> controller : promouvoir(enseignant)
+activate controller
+controller -> list
+destroy list
+controller -> form : afficherFormulaire()
+activate form
+form -> ad : demanderSaisie()
+ad -> form : remplir(grade, diplome)
+form -> controller : valider(grade, diplome)
+controller -> model : Promotion(grade, diplome)
+activate model
+model -> db : INSERT promotion
+db --> model : OK
+model --> controller : OK
+destroy model
+controller --> form : OK
+form --> ad : "Promotion effectuée"
+ad -> form : terminer()
+form -> controller : terminer()
+controller -> form
+destroy form
+controller -> list
+activate list
+list -> ad : presenterListe()
+
+@enduml
