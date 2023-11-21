@@ -21,6 +21,12 @@ class PromotionRecherche {
     - gradeRecherche:  String
     
 }
+class Departement{
+
+}
+class Diplome {
+
+}
 
 EnseignantCarriereRecherche "1" o-- "0..*" PromotionRecherche 
 
