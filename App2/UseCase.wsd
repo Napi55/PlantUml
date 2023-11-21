@@ -9,12 +9,12 @@ rectangle "service de recherche "  {
     
      (Ajouter Enseignant)  as uc1  
      (Modifier Enseignant) as uc2
-     (Rechercher Enseignant) as uc4
+     (Afficher Enseignants) as uc4
      (Ajouter Promotion) as uc5
      (Gérer Enseignant) as uc6
-      (Gérer Promotion) as uc7
+      (Gérer Promotions) as uc7
      
-     (Rechercher Promotion)as uc8
+     (Afficher Promotion)as uc8
      (Modifier Promotion)as uc9 
      
    
@@ -27,9 +27,7 @@ uc7 ....> uc0 : <<includes>>
 ' Extends
 uc6  <|-- uc1 
 uc6  <|-- uc2 
-uc6  <|-- uc4 
 uc7  <|-- uc5 
-uc7  <|-- uc8 
 uc7  <|-- uc9 
 
 
@@ -39,6 +37,8 @@ uc7  <|-- uc9
 
 Admin -- uc6
 Admin -- uc7
+Admin -- uc8
+Admin -- uc4
 
 
 

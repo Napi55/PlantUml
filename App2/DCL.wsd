@@ -1,34 +1,65 @@
 @startuml Application2
 
-class EnseignantCarriereRecherche {
+class Enseignant {
     - matricule:  String
     - nom:  String
     - prenom:  String
-    - sexe:  char
+    - sexe:  Genre
     - dateNaissance:  Date
     - lieuNaissance:  String
-    - situationFamille:  char
-    - dateRecrutement:  Date
-    - diplomeRecrutement:  String
-    - departementAffectation:  String
-    - laboratoireRecherche:  String
+    - situationFamille:  SituationFamille
+    - departementAffectation:  Departement
+    - laboratoireRecherche:  laboratoireRecherche
     
     
 }
 
 class PromotionRecherche {
     - datePromotion:  Date
-    - gradeRecherche:  String
+    - gradeRecherche:  GradeDeRecherche
     
 }
-class Departement{
-
+enum Departement{
+    #TLSI
+    #IFA 
+    #TroncCommunINFO
+}
+enum laboratoireRecherche{
+    #SJDF
+    #DZALFA 
+    #DIDI
 }
 class Diplome {
-
+    - date : Date
+    - type : TypeDiplome
 }
 
-EnseignantCarriereRecherche "1" o-- "0..*" PromotionRecherche 
+enum TypeDiplome  {
+    # Licence
+    # Master
+    # Doctorat
+}
+
+enum SituationFamille  {
+    # Celibataire
+    # Marrié
+    # Divorcé
+    # Veuf
+}
+
+enum Genre  {
+    # Male
+    # Female
+}
+Enum GradeDeRecherche {
+    #AssistantEnseignement
+    #MaitreDeConferences
+    #ProfesseurAssistant
+    #ProfesseurAssocie
+    #ProfesseurTitulaire
+}
+Enseignant "1" o-- "0..*" PromotionRecherche 
+Enseignant "1" o-- "1..*" Diplome 
 
 
 @enduml

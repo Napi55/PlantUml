@@ -1,0 +1,34 @@
+@startuml AddPromotion
+
+actor ADMINISTRATEUR as Admin
+boundary "Page Liste UI" as PageListeUI
+boundary "Formulaire Ajout Promotion UI" as FormulaireAjoutPromotionUI
+control "GestionPromotionController" as Controller
+entity "PromotionServiceBean" as PromotionServiceBean
+database "Base de Données" as Database
+
+Admin -> PageListeUI : Clique sur "Ajouter Promotion"
+activate PageListeUI
+
+PageListeUI -> Controller : Demande d'affichage du formulaire d'ajout de promotion
+activate Controller
+Controller -> FormulaireAjoutPromotionUI : Affiche le formulaire d'ajout de promotion
+activate FormulaireAjoutPromotionUI
+
+Admin -> FormulaireAjoutPromotionUI : Remplit les informations de la promotion
+FormulaireAjoutPromotionUI -> Controller : Soumet les informations de la promotion
+Controller -> PromotionServiceBean : Appel de la méthode d'ajout de promotion
+activate Database
+PromotionServiceBean -> Database : Enregistrement des données de la promotion
+Database --> PromotionServiceBean : Confirmation d'enregistrement
+destroy Database
+PromotionServiceBean --> Controller : Réponse de l'opération d'ajout de promotion
+destroy PromotionServiceBean
+Controller --> FormulaireAjoutPromotionUI : Confirmation d'ajout de promotion
+destroy Controller
+FormulaireAjoutPromotionUI --> PageListeUI : Retour à la page liste avec confirmation
+destroy FormulaireAjoutPromotionUI
+
+deactivate PageListeUI
+
+@enduml
