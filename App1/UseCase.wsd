@@ -1,38 +1,35 @@
 @startuml UseCase1
 left to right direction
+
 actor :Admin: as ad
-actor :Enseignant: as es
 
 rectangle "Gestion Personnel Enseignant" {
     (S'authentifier) as uc0
-    
 
-    (Ajouter) as uc1
-    (Supprimer) as uc2
-    (Modifier Données Personnelles) as uc3
+    (Gérer Enseignants) as uc1
 
-    (Promouvoir) as uc4
-    (par Grade) as uc5
-    (par Echelon) as uc6
-    (Consulter Profile) as uc7
+    (Ajouter Enseignant) as uc2
+    (Modifier Enseignant) as uc4
+
+    (Promouvoir) as uc5
+
+    (par Grade) as uc6
+    (par Echelon) as uc7
 }
 
 ' INCLUDE
 uc1 ..> uc0 : <<includes>>
-uc2 ..> uc0 : <<includes>>
-uc3 ..> uc0 : <<includes>>
-uc4 ..> uc0 : <<includes>>
-uc7 ..> uc0 : <<includes>>
+uc5 ..> uc0 : <<includes>>
 
 ' EXTENSIONS
-uc4 <|-- uc5
-uc4 <|- uc6
+uc1 <|-- uc2
+uc1 <|-- uc4
+
+uc5 <|-- uc6
+uc5 <|-- uc7
 
 ' ASSOCIATIONS
 ad -- uc1
-ad -- uc2
-ad -- uc3
-ad -- uc4
-es -- uc7
+ad -- uc5
 
 @enduml
