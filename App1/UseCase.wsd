@@ -10,6 +10,8 @@ rectangle "Gestion Personnel Enseignant" {
 
     (Ajouter Enseignant) as uc2
     (Modifier Enseignant) as uc4
+    
+    (Afficher Enseignants) as uc8
 
     (Promouvoir) as uc5
 
@@ -20,6 +22,7 @@ rectangle "Gestion Personnel Enseignant" {
 ' INCLUDE
 uc1 ..> uc0 : <<includes>>
 uc5 ..> uc0 : <<includes>>
+uc8 ..> uc0 : <<includes>>
 
 ' EXTENSIONS
 uc1 <|-- uc2
@@ -31,5 +34,6 @@ uc5 <|-- uc7
 ' ASSOCIATIONS
 ad -- uc1
 ad -- uc5
+ad -- uc8
 
 @enduml
