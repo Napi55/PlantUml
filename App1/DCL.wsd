@@ -10,6 +10,7 @@ class Enseignant {
     - situationFamille : SituationFamille
     - nomConjoint : String
     - nombreEnfants : Int
+    - departement : Departement
     - dateRecrutement : Date
     - estActif : Bool
 }
@@ -18,7 +19,7 @@ abstract class Promotion {
     - datePromotion : Date
 }
 
-abstract IndexableEnum {
+interface IndexableEnum {
     + getIndex() : Int
 }
 
@@ -30,37 +31,38 @@ class PromotionEchelon extends Promotion {
     - nombreEchelons : Int
 }
 
-class Departement {
-    - nom : String
-}
-
 class Diplome {
     - date : Date
     - type : TypeDiplome
 }
 
-enum TypeDiplome extends IndexableEnum {
+enum TypeDiplome implements IndexableEnum {
     # Licence
     # Master
     # Doctorat
 }
 
-enum SituationFamille extends IndexableEnum {
+enum SituationFamille implements IndexableEnum {
     # Celibataire
     # Marrié
     # Divorcé
     # Veuf
 }
 
-enum Genre extends IndexableEnum {
+enum Genre implements IndexableEnum {
     # Male
-    # Female
+    # Femelle
+}
+
+enum Departement implements IndexableEnum {
+    # TLSI
+    # IFA
+    # TroncCommunMI
 }
 
 'ASSOCIATIONS
-Enseignant "1" o-- "*" Promotion
-Enseignant "1" o-- "*" Diplome
-Enseignant "1" --o "*" Departement
+Enseignant "1" *-- "*" Promotion
+Enseignant "1" *-- "*" Diplome
 
 PromotionGrade o-- "*" Diplome
 

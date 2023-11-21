@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="722px" preserveAspectRatio="none" style="width:929px;height:722px;background:#FFFFFF;" version="1.1" viewBox="0 0 929 722" width="929px" zoomAndPan="magnify"><defs/><g><!--MD5=[0ea76b077f2fe2b0557d144a0cdb3724]
+class Enseignant--><g id="elem_Enseignant"><rect codeLine="2" fill="#F1F1F1" height="229.3711" id="Enseignant" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="257" x="193" y="7"/><ellipse cx="279.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M281.7231,29.1431 Q281.1421,29.4419 280.5029,29.5913 Q279.8638,29.7407 279.1582,29.7407 Q276.6514,29.7407 275.3315,28.0889 Q274.0117,26.437 274.0117,23.3159 Q274.0117,20.1865 275.3315,18.5347 Q276.6514,16.8828 279.1582,16.8828 Q279.8638,16.8828 280.5112,17.0322 Q281.1587,17.1816 281.7231,17.4805 L281.7231,20.2031 Q281.0923,19.6221 280.4988,19.3523 Q279.9053,19.0825 279.2744,19.0825 Q277.9297,19.0825 277.2449,20.1492 Q276.5601,21.2158 276.5601,23.3159 Q276.5601,25.4077 277.2449,26.4744 Q277.9297,27.541 279.2744,27.541 Q279.9053,27.541 280.4988,27.2712 Q281.0923,27.0015 281.7231,26.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="299.75" y="28.291">Enseignant</text><line style="stroke:#181818;stroke-width:0.5;" x1="194" x2="449" y1="39" y2="39"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="49.7441"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="213" y="56.5352">matricule : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="66.2324"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="213" y="73.0234">nom : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="82.7207"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="213" y="89.5117">prenom : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="99.209"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="213" y="106">sexe : Genre</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="115.6973"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="213" y="122.4883">dateNaissance : Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="132.1855"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="213" y="138.9766">lieuNaissance : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="148.6738"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="231" x="213" y="155.4648">situationFamille : SituationFamille</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="165.1621"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="213" y="171.9531">nomConjoint : String</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="181.6504"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="213" y="188.4414">nombreEnfants : Int</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="198.1387"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="213" y="204.9297">dateRecrutement : Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="201" y="214.627"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="213" y="221.418">estActif : Bool</text><line style="stroke:#181818;stroke-width:0.5;" x1="194" x2="449" y1="228.3711" y2="228.3711"/></g><!--MD5=[1d97155fbdc73f053377e8b095f5eeba]
+class Promotion--><g id="elem_Promotion"><rect codeLine="16" fill="#F1F1F1" height="64.4883" id="Promotion" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="171" x="7" y="340.98"/><ellipse cx="52.25" cy="356.98" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M52.1133,352.3281 L50.9595,357.3999 L53.2754,357.3999 Z M50.6191,350.0869 L53.6157,350.0869 L56.9609,362.48 L54.5122,362.48 L53.7485,359.417 L50.4697,359.417 L49.7227,362.48 L47.2739,362.48 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="72.75" y="362.271">Promotion</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="177" y1="372.98" y2="372.98"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="15" y="383.7241"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="27" y="390.5152">datePromotion : Date</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="177" y1="397.4683" y2="397.4683"/></g><!--MD5=[0064363b6d4f1773c9b19a2c02a9dc19]
+class IndexableEnum--><g id="elem_IndexableEnum"><rect codeLine="20" fill="#F1F1F1" height="64.4883" id="IndexableEnum" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="139" x="671" y="89.25"/><ellipse cx="686" cy="105.25" fill="#A9DCDF" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M685.8633,100.5981 L684.7095,105.6699 L687.0254,105.6699 Z M684.3691,98.3569 L687.3657,98.3569 L690.7109,110.75 L688.2622,110.75 L687.4985,107.687 L684.2197,107.687 L683.4727,110.75 L681.0239,110.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="107" x="700" y="110.541">IndexableEnum</text><line style="stroke:#181818;stroke-width:0.5;" x1="672" x2="809" y1="121.25" y2="121.25"/><line style="stroke:#181818;stroke-width:0.5;" x1="672" x2="809" y1="129.25" y2="129.25"/><ellipse cx="682" cy="142.9941" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="691" y="146.7852">getIndex() : Int</text></g><!--MD5=[ce7f50931b4aeeab09f6e598161ab70e]
+class PromotionGrade--><g id="elem_PromotionGrade"><rect codeLine="24" fill="#F1F1F1" height="64.4883" id="PromotionGrade" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="20" y="489.95"/><ellipse cx="35" cy="505.95" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M37.4731,512.0931 Q36.8921,512.3919 36.2529,512.5413 Q35.6138,512.6907 34.9082,512.6907 Q32.4014,512.6907 31.0815,511.0389 Q29.7617,509.387 29.7617,506.2659 Q29.7617,503.1365 31.0815,501.4847 Q32.4014,499.8328 34.9082,499.8328 Q35.6138,499.8328 36.2612,499.9822 Q36.9087,500.1316 37.4731,500.4305 L37.4731,503.1531 Q36.8423,502.5721 36.2488,502.3023 Q35.6553,502.0325 35.0244,502.0325 Q33.6797,502.0325 32.9949,503.0992 Q32.3101,504.1658 32.3101,506.2659 Q32.3101,508.3577 32.9949,509.4244 Q33.6797,510.491 35.0244,510.491 Q35.6553,510.491 36.2488,510.2212 Q36.8423,509.9515 37.4731,509.3704 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="49" y="511.241">PromotionGrade</text><line style="stroke:#181818;stroke-width:0.5;" x1="21" x2="164" y1="521.95" y2="521.95"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="28" y="532.6941"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="40" y="539.4852">grade : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="21" x2="164" y1="546.4383" y2="546.4383"/></g><!--MD5=[aab39d09047fa23240141a5fbec6d9e2]
+class PromotionEchelon--><g id="elem_PromotionEchelon"><rect codeLine="28" fill="#F1F1F1" height="64.4883" id="PromotionEchelon" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="171" x="200" y="489.95"/><ellipse cx="220.85" cy="505.95" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M223.3231,512.0931 Q222.7421,512.3919 222.1029,512.5413 Q221.4638,512.6907 220.7582,512.6907 Q218.2514,512.6907 216.9315,511.0389 Q215.6117,509.387 215.6117,506.2659 Q215.6117,503.1365 216.9315,501.4847 Q218.2514,499.8328 220.7582,499.8328 Q221.4638,499.8328 222.1112,499.9822 Q222.7587,500.1316 223.3231,500.4305 L223.3231,503.1531 Q222.6923,502.5721 222.0988,502.3023 Q221.5053,502.0325 220.8744,502.0325 Q219.5297,502.0325 218.8449,503.0992 Q218.1601,504.1658 218.1601,506.2659 Q218.1601,508.3577 218.8449,509.4244 Q219.5297,510.491 220.8744,510.491 Q221.5053,510.491 222.0988,510.2212 Q222.6923,509.9515 223.3231,509.3704 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="236.15" y="511.241">PromotionEchelon</text><line style="stroke:#181818;stroke-width:0.5;" x1="201" x2="370" y1="521.95" y2="521.95"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="208" y="532.6941"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="220" y="539.4852">nombreEchelons : Int</text><line style="stroke:#181818;stroke-width:0.5;" x1="201" x2="370" y1="546.4383" y2="546.4383"/></g><!--MD5=[115c740ae1051c3c8fcd165ef9c1cdfe]
+class Departement--><g id="elem_Departement"><rect codeLine="32" fill="#F1F1F1" height="64.4883" id="Departement" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="261" y="340.98"/><ellipse cx="276" cy="356.98" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M278.4731,363.1231 Q277.8921,363.4219 277.2529,363.5713 Q276.6138,363.7207 275.9082,363.7207 Q273.4014,363.7207 272.0815,362.0689 Q270.7617,360.417 270.7617,357.2959 Q270.7617,354.1665 272.0815,352.5147 Q273.4014,350.8628 275.9082,350.8628 Q276.6138,350.8628 277.2612,351.0122 Q277.9087,351.1616 278.4731,351.4605 L278.4731,354.1831 Q277.8423,353.6021 277.2488,353.3323 Q276.6553,353.0625 276.0244,353.0625 Q274.6797,353.0625 273.9949,354.1292 Q273.3101,355.1958 273.3101,357.2959 Q273.3101,359.3877 273.9949,360.4544 Q274.6797,361.521 276.0244,361.521 Q276.6553,361.521 277.2488,361.2512 Q277.8423,360.9815 278.4731,360.4004 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="290" y="362.271">Departement</text><line style="stroke:#181818;stroke-width:0.5;" x1="262" x2="381" y1="372.98" y2="372.98"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="269" y="383.7241"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="281" y="390.5152">nom : String</text><line style="stroke:#181818;stroke-width:0.5;" x1="262" x2="381" y1="397.4683" y2="397.4683"/></g><!--MD5=[25b7bbfd0b116b641d06b8262c4985fa]
+class Diplome--><g id="elem_Diplome"><rect codeLine="36" fill="#F1F1F1" height="80.9766" id="Diplome" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="157" x="197" y="634.44"/><ellipse cx="242.75" cy="650.44" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M245.2231,656.5831 Q244.6421,656.8819 244.0029,657.0313 Q243.3638,657.1807 242.6582,657.1807 Q240.1514,657.1807 238.8315,655.5289 Q237.5117,653.877 237.5117,650.7559 Q237.5117,647.6265 238.8315,645.9747 Q240.1514,644.3228 242.6582,644.3228 Q243.3638,644.3228 244.0112,644.4722 Q244.6587,644.6216 245.2231,644.9205 L245.2231,647.6431 Q244.5923,647.0621 243.9988,646.7923 Q243.4053,646.5225 242.7744,646.5225 Q241.4297,646.5225 240.7449,647.5892 Q240.0601,648.6558 240.0601,650.7559 Q240.0601,652.8477 240.7449,653.9144 Q241.4297,654.981 242.7744,654.981 Q243.4053,654.981 243.9988,654.7112 Q244.5923,654.4415 245.2231,653.8604 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="263.25" y="655.731">Diplome</text><line style="stroke:#181818;stroke-width:0.5;" x1="198" x2="353" y1="666.44" y2="666.44"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="205" y="677.1841"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="217" y="683.9752">date : Date</text><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="205" y="693.6724"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="217" y="700.4634">type : TypeDiplome</text><line style="stroke:#181818;stroke-width:0.5;" x1="198" x2="353" y1="707.4166" y2="707.4166"/></g><!--MD5=[275286c8e7ffbf5be91404982cdd2ec7]
+class TypeDiplome--><g id="elem_TypeDiplome"><rect codeLine="41" fill="#F1F1F1" height="97.4648" id="TypeDiplome" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="512.5" y="324.24"/><ellipse cx="527.5" cy="340.24" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M531.1143,346.74 L523.3945,346.74 L523.3945,334.3469 L531.1143,334.3469 L531.1143,336.5051 L525.8433,336.5051 L525.8433,339.178 L530.6162,339.178 L530.6162,341.3362 L525.8433,341.3362 L525.8433,344.5818 L531.1143,344.5818 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="541.5" y="345.531">TypeDiplome</text><line style="stroke:#181818;stroke-width:0.5;" x1="513.5" x2="633.5" y1="356.24" y2="356.24"/><polygon fill="none" points="523.5,364.9841,527.5,368.9841,523.5,372.9841,519.5,368.9841" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="532.5" y="373.7752">Licence</text><polygon fill="none" points="523.5,381.4724,527.5,385.4724,523.5,389.4724,519.5,385.4724" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="532.5" y="390.2634">Master</text><polygon fill="none" points="523.5,397.9607,527.5,401.9607,523.5,405.9607,519.5,401.9607" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="532.5" y="406.7517">Doctorat</text><line style="stroke:#181818;stroke-width:0.5;" x1="513.5" x2="633.5" y1="413.7048" y2="413.7048"/></g><!--MD5=[0b2256c4bd45ab75fe5c14eb1d463c11]
+class SituationFamille--><g id="elem_SituationFamille"><rect codeLine="47" fill="#F1F1F1" height="113.9531" id="SituationFamille" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="669.5" y="316"/><ellipse cx="684.5" cy="332" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M688.1143,338.5 L680.3945,338.5 L680.3945,326.1069 L688.1143,326.1069 L688.1143,328.2651 L682.8433,328.2651 L682.8433,330.938 L687.6162,330.938 L687.6162,333.0962 L682.8433,333.0962 L682.8433,336.3418 L688.1143,336.3418 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="698.5" y="337.291">SituationFamille</text><line style="stroke:#181818;stroke-width:0.5;" x1="670.5" x2="810.5" y1="348" y2="348"/><polygon fill="none" points="680.5,356.7441,684.5,360.7441,680.5,364.7441,676.5,360.7441" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="689.5" y="365.5352">Celibataire</text><polygon fill="none" points="680.5,373.2324,684.5,377.2324,680.5,381.2324,676.5,377.2324" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="689.5" y="382.0234">Marrié</text><polygon fill="none" points="680.5,389.7207,684.5,393.7207,680.5,397.7207,676.5,393.7207" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="689.5" y="398.5117">Divorcé</text><polygon fill="none" points="680.5,406.209,684.5,410.209,680.5,414.209,676.5,410.209" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="689.5" y="415">Veuf</text><line style="stroke:#181818;stroke-width:0.5;" x1="670.5" x2="810.5" y1="421.9531" y2="421.9531"/></g><!--MD5=[f375b3d0fae4d15774812e930c824519]
+class Genre--><g id="elem_Genre"><rect codeLine="54" fill="#F1F1F1" height="80.9766" id="Genre" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="75" x="847" y="332.49"/><ellipse cx="862.9" cy="348.49" fill="#EB937F" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M866.5143,354.99 L858.7945,354.99 L858.7945,342.5969 L866.5143,342.5969 L866.5143,344.7551 L861.2433,344.7551 L861.2433,347.428 L866.0162,347.428 L866.0162,349.5862 L861.2433,349.5862 L861.2433,352.8318 L866.5143,352.8318 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="877.1" y="353.781">Genre</text><line style="stroke:#181818;stroke-width:0.5;" x1="848" x2="921" y1="364.49" y2="364.49"/><polygon fill="none" points="858,373.2341,862,377.2341,858,381.2341,854,377.2341" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="867" y="382.0252">Male</text><polygon fill="none" points="858,389.7224,862,393.7224,858,397.7224,854,393.7224" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="867" y="398.5134">Female</text><line style="stroke:#181818;stroke-width:0.5;" x1="848" x2="921" y1="405.4666" y2="405.4666"/></g><!--MD5=[4013536c358a80f533f814f3ad04157e]
+reverse link Promotion to PromotionGrade--><g id="link_Promotion_PromotionGrade"><path d="M92.5,426.06 C92.5,447.28 92.5,471.11 92.5,489.61 " fill="none" id="Promotion-backto-PromotionGrade" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="85.5,426.35,92.5,406.35,99.5,426.35,85.5,426.35" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[277e2ea6fbce1f7f639d137e6c501002]
+reverse link Promotion to PromotionEchelon--><g id="link_Promotion_PromotionEchelon"><path d="M149.95,417.8 C180.21,440.88 216.63,468.66 244.1,489.61 " fill="none" id="Promotion-backto-PromotionEchelon" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="145.82,423.45,134.16,405.76,154.31,412.32,145.82,423.45" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1a70643e5def5b6fc0f547ba3ae49765]
+reverse link IndexableEnum to TypeDiplome--><g id="link_IndexableEnum_TypeDiplome"><path d="M707.4,171.95 C677.86,216.08 634.86,280.3 605.62,323.99 " fill="none" id="IndexableEnum-backto-TypeDiplome" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="701.56,168.08,718.51,155.35,713.2,175.87,701.56,168.08" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[30f976bce1900e381ce613fd27cb872d]
+reverse link IndexableEnum to SituationFamille--><g id="link_IndexableEnum_SituationFamille"><path d="M740.5,175.48 C740.5,216.77 740.5,273.94 740.5,315.97 " fill="none" id="IndexableEnum-backto-SituationFamille" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="733.5,175.61,740.5,155.61,747.5,175.61,733.5,175.61" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ad4c76a0265b610d4b067b026475e3c0]
+reverse link IndexableEnum to Genre--><g id="link_IndexableEnum_Genre"><path d="M769.48,172.7 C796.55,219.6 836.44,288.71 861.42,331.99 " fill="none" id="IndexableEnum-backto-Genre" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="763.43,176.23,759.49,155.41,775.56,169.23,763.43,176.23" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[aa7890a6abca59ad731955f00497ce44]
+reverse link Enseignant to Promotion--><g id="link_Enseignant_Promotion"><path codeLine="60" d="M207.81,246.35 C175.43,281.63 142.97,317 120.77,341.18 " fill="none" id="Enseignant-backto-Promotion" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="216.36,237.04,209.3559,238.7553,208.2453,245.8804,215.2495,244.1651,216.36,237.04" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="185.7409" y="256.8705">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="120.2978" y="330.132">*</text></g><!--MD5=[b6c365ab3745a9d90c7016c16ef4802c]
+reverse link Enseignant to Diplome--><g id="link_Enseignant_Diplome"><path codeLine="61" d="M399.12,248.97 C409.19,270.64 417.92,293.45 423.5,316 C435.66,365.16 430.42,379.78 423.5,429.95 C415.65,486.89 416.9,504.47 388.5,554.44 C371.33,584.66 344.86,613.1 321.85,634.6 " fill="none" id="Enseignant-backto-Diplome" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="393.54,237.36,392.5402,244.5015,398.7478,248.1711,399.7476,241.0296,393.54,237.36" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="399.6194" y="256.968">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="323.5717" y="623.6766">*</text></g><!--MD5=[a28d17cdc1f1cb457eff82c7bfe03c08]
+link Enseignant to Departement--><g id="link_Enseignant_Departement"><path codeLine="62" d="M321.5,235.92 C321.5,268.05 321.5,301.19 321.5,326.72 " fill="none" id="Enseignant-to-Departement" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="321.5,339.66,325.5,333.66,321.5,327.66,317.5,333.66,321.5,339.66" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="312.625" y="256.8705">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="314.8438" y="330.132">*</text></g><!--MD5=[22ff5058ca6f6bc301dc95444fd5a4a0]
+reverse link PromotionGrade to Diplome--><g id="link_PromotionGrade_Diplome"><path codeLine="64" d="M141.92,563.77 C168.7,585.75 201.62,612.78 228.07,634.5 " fill="none" id="PromotionGrade-backto-Diplome" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="132.03,555.65,134.1291,562.5488,141.3046,563.2646,139.2055,556.3658,132.03,555.65" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="213.0872" y="623.5588">*</text></g><!--MD5=[29f5eda42685b4b13c8e1affe44f94d6]
+@startuml DCL1
+
+class Enseignant {
+    - matricule : String
+    - nom : String
+    - prenom : String
+    - sexe : Genre
+    - dateNaissance : Date
+    - lieuNaissance : String
+    - situationFamille : SituationFamille
+    - nomConjoint : String
+    - nombreEnfants : Int
+    - dateRecrutement : Date
+    - estActif : Bool
+}
+
+abstract class Promotion {
+    - datePromotion : Date
+}
+
+abstract IndexableEnum {
+    + getIndex() : Int
+}
+
+class PromotionGrade extends Promotion {
+    - grade : String
+}
+
+class PromotionEchelon extends Promotion {
+    - nombreEchelons : Int
+}
+
+class Departement {
+    - nom : String
+}
+
+class Diplome {
+    - date : Date
+    - type : TypeDiplome
+}
+
+enum TypeDiplome extends IndexableEnum {
+    # Licence
+    # Master
+    # Doctorat
+}
+
+enum SituationFamille extends IndexableEnum {
+    # Celibataire
+    # Marrié
+    # Divorcé
+    # Veuf
+}
+
+enum Genre extends IndexableEnum {
+    # Male
+    # Female
+}
+
+'ASSOCIATIONS
+Enseignant "1" o- - "*" Promotion
+Enseignant "1" o- - "*" Diplome
+Enseignant "1" - -o "*" Departement
+
+PromotionGrade o- - "*" Diplome
+
+@enduml
+
+@startuml DCL1
+
+class Enseignant {
+    - matricule : String
+    - nom : String
+    - prenom : String
+    - sexe : Genre
+    - dateNaissance : Date
+    - lieuNaissance : String
+    - situationFamille : SituationFamille
+    - nomConjoint : String
+    - nombreEnfants : Int
+    - dateRecrutement : Date
+    - estActif : Bool
+}
+
+abstract class Promotion {
+    - datePromotion : Date
+}
+
+abstract IndexableEnum {
+    + getIndex() : Int
+}
+
+class PromotionGrade extends Promotion {
+    - grade : String
+}
+
+class PromotionEchelon extends Promotion {
+    - nombreEchelons : Int
+}
+
+class Departement {
+    - nom : String
+}
+
+class Diplome {
+    - date : Date
+    - type : TypeDiplome
+}
+
+enum TypeDiplome extends IndexableEnum {
+    # Licence
+    # Master
+    # Doctorat
+}
+
+enum SituationFamille extends IndexableEnum {
+    # Celibataire
+    # Marrié
+    # Divorcé
+    # Veuf
+}
+
+enum Genre extends IndexableEnum {
+    # Male
+    # Female
+}
+
+Enseignant "1" o- - "*" Promotion
+Enseignant "1" o- - "*" Diplome
+Enseignant "1" - -o "*" Departement
+
+PromotionGrade o- - "*" Diplome
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 CET 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
